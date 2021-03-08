@@ -1,0 +1,87 @@
+.button-w-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-w-icon__icon {
+    margin: 0px 11px 0px 0px;
+    width: 18px;
+    height: 18px;
+}
+
+.button-w-icon__icon > img {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-primary {}
+
+.button-succes,
+.button-danger,
+.button-info {
+    color: #fff;
+}
+
+/* dummy */
+.button-succes {
+    background-color: #27AE60;
+}
+
+.button-danger {
+    background-color: #EB5757;
+}
+
+.button-info {
+    background-color: #2F80ED;
+}
+
+/* hover */
+.button-succes:hover {
+    background-color: #1F9752;
+}
+
+.button-danger:hover {
+    background-color: #E14B4B;
+}
+
+.button-info:hover {
+    background-color: #3276D0;
+}
+
+/* active */
+.button-succes:active {
+    background-color: #188546;
+}
+
+.button-danger:active {
+    background-color: #C63939;
+}
+
+.button-info:active {
+    background-color: #1F5EB4;
+}
+
+/* is disabled */
+.button-succes--disabled,
+.button-danger--disabled,
+.button-info--disabled {
+    cursor: default;
+}
+
+.button-succes--disabled:hover,
+.button-succes--disabled {
+    background-color: #4DA773;
+}
+
+.button-danger--disabled:hover,
+.button-danger--disabled {
+    background-color: #E17575;
+}
+
+.button-info--disabled:hover,
+.button-info--disabled {
+    background-color: #629CEA;
+}

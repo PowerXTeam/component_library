@@ -17,7 +17,8 @@
     vertical-align: middle;
 }
 
-.button-primary {}
+.button-primary {
+}
 
 .button-succes,
 .button-danger,
@@ -27,28 +28,28 @@
 
 /* dummy */
 .button-succes {
-    background-color: #27AE60;
+    background-color: #27ae60;
 }
 
 .button-danger {
-    background-color: #EB5757;
+    background-color: #eb5757;
 }
 
 .button-info {
-    background-color: #2F80ED;
+    background-color: #2f80ed;
 }
 
 /* hover */
 .button-succes:hover {
-    background-color: #1F9752;
+    background-color: #1f9752;
 }
 
 .button-danger:hover {
-    background-color: #E14B4B;
+    background-color: #e14b4b;
 }
 
 .button-info:hover {
-    background-color: #3276D0;
+    background-color: #3276d0;
 }
 
 /* active */
@@ -57,11 +58,11 @@
 }
 
 .button-danger:active {
-    background-color: #C63939;
+    background-color: #c63939;
 }
 
 .button-info:active {
-    background-color: #1F5EB4;
+    background-color: #1f5eb4;
 }
 
 /* is disabled */
@@ -73,15 +74,18 @@
 
 .button-succes--disabled:hover,
 .button-succes--disabled {
-    background-color: #4DA773;
+    background-color: #4da773;
 }
 
 .button-danger--disabled:hover,
 .button-danger--disabled {
-    background-color: #E17575;
+    background-color: #e17575;
 }
 
 .button-info--disabled:hover,
 .button-info--disabled {
-    background-color: #629CEA;
+    background-color: #629cea;
 }
+
+/* adaptive */
+

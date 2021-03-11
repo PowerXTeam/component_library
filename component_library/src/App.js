@@ -1,15 +1,14 @@
-import './_reset.css'
 import Button from './Components/Button/Button';
+import Input from './Components/Input/Input';
 import plug from './plug.png';
 
 
 function App() {
   return (
     <div className="app">
-      <Button type="button-danger" content="button danger" />
-      <Button type="button-succes" content="buttun primary succes"/>
-      <Button type="button-info" content="button-info"/>
-      <Button type="button-info" isDisabled="true" icon={plug} content="button-info disabled plug"/>
+      <Input label="Имя:" options="Можт быть не ваше" dataIsValid="true" placeholder="Введите имя" />
+      <Input options="Пароль сюда. Быстро!" dataIsValid="true" type="password" placeholder="Введите пароль" />
+      <Button type="button-danger" icon={plug} content="submit" />
     </div>
   );
 }

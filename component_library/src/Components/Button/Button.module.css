@@ -24,6 +24,17 @@
 .button-danger,
 .button-info {
     color: #fff;
+    background-color: #e0e0e0;
+	border-radius: 8px;
+	min-width: 87px;
+	min-height: 34px;
+	padding: 4px 20px;
+	color: #4f4f4f;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: sans-serif;
+	letter-spacing: .1px;
+	transition: 0.1s;
 }
 
 /* dummy */

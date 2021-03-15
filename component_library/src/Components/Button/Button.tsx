@@ -1,9 +1,10 @@
+import { FC } from 'react';
 import s from './Button.module.css';
 
-const Button = ({type, isDisabled, icon, content}) => {
+const Button: FC<{type: string, isDisabled?: boolean, icon?: any, content: string}> = ({type, isDisabled, icon, content}) => {
     let classes = `
         ${s[type]}
-        ${isDisabled === 'true' ? (' ' + s[`${type}--disabled`]) : ''}
+        ${isDisabled ? (' ' + s[`${type}--disabled`]) : ''}
     `;
 
     if (icon) {
